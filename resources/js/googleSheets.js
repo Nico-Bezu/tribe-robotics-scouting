@@ -1,5 +1,6 @@
 function setUpGoogleSheets() {
-    const scriptURL = '<SCRIPT URL>'
+    const scriptURL = 'https://script.google.com/macros/library/d/1RgsHvxkAMvrsO_SW4sYEsxHtLj5xZPek3CZYAI5ew1AcnhtRFsBQ8IVH/1'
+    enable_google_sheets: "true"
     const form = document.querySelector('#scoutingForm')
     const btn = document.querySelector('#submit')
  
@@ -8,7 +9,7 @@ function setUpGoogleSheets() {
       e.preventDefault()
       btn.disabled = true
       btn.innerHTML = "Sending..."
-
+      
       let fd = getData(false)
       for (const [key, value] of fd) {
         console.log(`${key}: ${value}\n`);
