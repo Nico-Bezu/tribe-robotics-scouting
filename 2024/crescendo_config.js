@@ -7,7 +7,7 @@ var config_data = `
   "prematch": [
     { "name": "Scouter Initials",
     "gsCol": "scouter"
-      "code": "s",
+    "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
@@ -22,7 +22,7 @@ var config_data = `
     },
     { "name": "Match Level",
     "gsCol": "Match Level"
-      "code": "l",
+    "code": "l",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -62,7 +62,7 @@ var config_data = `
     },
     { "name": "Auto Start Position",
     "gsCol": "Auto Start Position"
-      "code": "as",
+    "code": "as",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "clickRestriction": "one",
@@ -72,8 +72,8 @@ var config_data = `
   ],
   "auton": [
     { "name": "Leave Starting Zone",
-    "gsCol": "Leave Starting Zone"
-      "code": "al",
+    "gsCol": "Leave Starting Zone" 
+    "code": "al",
       "type": "bool"
     },
     { "name": "Amp Scores",
@@ -83,29 +83,29 @@ var config_data = `
     },
     { "name": "Speaker Scores",
     "gsCol": "Auto Speaker"
-      "code": "ass",
+    "code": "ass",
       "type": "counter"
     }
   ],
   "teleop": [
     { "name": "Amp Scores",
     "gsCol": "Teleop Amp"
-      "code": "tas",
+    "code": "tas",
       "type": "counter"
     },
     { "name": "Speaker Scores",
     "gsCol": "Teleop Speaker"
-      "code": "tss",
+    "code": "tss",
       "type": "counter"
     },
     { "name": "Times Amplified",
     "gsCol: "Times Amplified"
-      "code": "tta",
+    "code": "tta",
       "type": "counter"
     },
     { "name": "Pickup From",
-    "gsCol": "Pickup From"
-      "code": "tpu",
+    "gsCol": "Pickup From" 
+    "code": "tpu",
       "type": "radio",
       "choices": {
         "s": "Source<br>",
@@ -119,12 +119,12 @@ var config_data = `
   "endgame": [
     { "name": "Stage Timer",
     "gsCol": "Stage Timer"
-      "code": "dt",
+    "code": "dt",
       "type": "timer"
     },
     { "name": "Final Status",
     "gsCol": "Final Status"
-      "code": "fs",
+    "code": "fs",
       "type":"radio",
       "choices": {
         "p": "Parked<br>",
@@ -138,14 +138,14 @@ var config_data = `
     },
     { "name": "Note in Trap",
     "gsCol": Note in Trap"
-      "code": "nit",
+    "code": "nit",
       "type": "bool"
     }
   ],
   "postmatch": [
     { "name": "Driver Skill",
     "gsCol": "Driver Skill"
-      "code": "ds",
+    "code": "ds",
       "type": "radio",
       "choices": {
         "n": "Not Effective<br>",
@@ -157,7 +157,7 @@ var config_data = `
     },
     { "name": "Defense Rating",
     "gsCol": "Defense Rating"
-      "code": "dr",
+    "code": "dr",
       "type": "radio",
       "choices": {
         "b": "Below Average<br>",
@@ -170,7 +170,7 @@ var config_data = `
     },
     { "name": "Speed Rating",
     "gsCol": "Speed Rating"
-      "code": "sr",
+    "code": "sr",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
@@ -183,28 +183,28 @@ var config_data = `
     },
     { "name": "Died/Immobilized",
     "gsCol": "Died/Immobilized"
-      "code": "die",
+    "code": "die",
       "type": "bool"
     },
     { "name": "Tippy<br>(almost tipped over)",
     "gsCol": "Almost Tipped Over"
-      "code": "tip",
+    "code": "tip",
       "type": "bool"
     },
     { "name": "Dropped Notes (>2)",
     "gsCol: "Dropped Notes"
-      "code": "dn",
+    "code": "dn",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
     "gsCol": "Make good alliance partner"
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
+    "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
     "gsCol": "Comments"
-      "code": "co",
+    "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 55
