@@ -98,11 +98,13 @@ var config_data = `
     "code": "tss",
       "type": "counter"
     },
-    { "name": "Times Amplified",
+    
+   { "name": "Times Amplified",
     "gsCol": "Times Amplified",
-    "code": "tta",
+     "code": "tta",
     "type": "counter"
     },
+
 
     { "name": "Pickup From",
     "gsCol": "Pickup From",
