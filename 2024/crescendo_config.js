@@ -99,10 +99,11 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Times Amplified",
-    "gsCol: "Times Amplified",
+    "gsCol": "Times Amplified",
     "code": "tta",
-      "type": "counter"
+    "type": "counter"
     },
+
     { "name": "Pickup From",
     "gsCol": "Pickup From",
     "code": "tpu",
