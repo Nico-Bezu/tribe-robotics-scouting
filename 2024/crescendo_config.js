@@ -235,6 +235,6 @@
             "type": "text",
             "size": 15,
             "maxSize": 55
-        }
+        },
     ]
 }
