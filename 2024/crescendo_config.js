@@ -7,15 +7,14 @@
     "page_title": "Crescendo",
     "checkboxAs": "10",
     "prematch": [
-        {
-            "name": "Scouter Initials",
-            "gsCol": "scouter",
-            "code": "s",
-            "type": "scouter",
-            "size": 5,
-            "maxSize": 5,
-            "required": "true"
-        },
+            { "name": "Scouter Initials",
+              "gsCol": "scouter",
+              "code": "s",
+              "type": "scouter",
+              "size": 5,
+              "maxSize": 5,
+              "required": "true"
+            },
         {
             "name": "Event",
             "gsCol": "Event",
